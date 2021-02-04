@@ -1,0 +1,273 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #EFEFEF;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navigationbar{
+    display: flex;
+    /* border: 2px solid black; */
+    height: 150px;
+    overflow: hidden;
+    position: fixed;
+    background-color: #EFEFEF;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+    
+}
+
+
+
+#rightnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 25%;
+    
+}
+#rightnav img{
+    margin-top: 8px;
+    height: 90px;
+    width: 360px;
+}
+
+#leftnav{
+    height: 150px;
+    width: 75%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.midmenu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+.onlymargin{
+    margin-top: 150px;
+
+}
+.midanimation div {
+    color: black;
+    display: flex;
+    height: 50px;
+    box-shadow: 8px 8px 18px #aaaaaa;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 8px;
+    animation-name:mukul;
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mukul{
+    0%{
+        letter-spacing:8px;
+    }
+  
+    50%{
+        letter-spacing:32px;
+    }
+    
+    
+    100%{
+        letter-spacing:8px;
+    }
+}
+
+
+@media (max-width:1030px)
+{
+
+    .navigationbar{
+        display: flex;
+        /* border: 2px solid black; */
+        height: 150px;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        /* border-bottom: 1px solid black; */
+        
+    }
+    
+    #rightnav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid black; */
+        width: 25%;
+        
+    }
+    #rightnav img{
+        margin-top: 8px;
+        height: 70px;
+        width: 280px;
+    }
+    
+    #leftnav{
+        height: 150px;
+        width: 75%;
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    .midmenu a{
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+        letter-spacing: 1px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: bold;
+    }
+
+}
+
+@media (max-width:768px)
+{
+
+    .navigationbar{
+        display: flex;
+        /* border: 2px solid black; */
+        height: 150px;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        /* border-bottom: 1px solid black; */
+        
+    }
+    
+    #rightnav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid black; */
+        width: 25%;
+        
+    }
+    #rightnav img{
+        margin-top: 10px;
+        margin-left: 5px;
+        height: 60px;
+        width: 240px;
+    }
+    
+    #leftnav{
+        height: 150px;
+        width: 75%;
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    .midmenu a{
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+        letter-spacing: 1px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: bold;
+    }
+
+}
+
+@media (max-width:540px)
+{
+
+    .navigationbar{
+        display: flex;
+        /* border: 2px solid black; */
+        height: 60px;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin-bottom: 10px;
+        /* border-bottom: 1px solid black; */
+        
+    }
+    
+    #rightnav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid black; */
+        width: 30%;
+        
+    }
+    #rightnav img{
+        margin-top: 10px;
+        height: 30px;
+        width: 120px;
+    }
+    
+    #leftnav{
+        height: 60px;
+        width: 70%;
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    .midmenu a{
+        text-decoration: none;
+        color: black;
+        font-size: 11px;
+        letter-spacing: 1px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: bold;
+    }
+    .onlymargin{
+        margin-top: 60px;
+    
+    }
+    .midanimation div {
+        color: black;
+        display: flex;
+        height: 24px;
+        font-size: 10px;
+        box-shadow: 5px 5px 18px #aaaaaa;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 2px;
+        animation-name:mukul;
+        animation-duration: 6s;
+        font-family: 'Architects Daughter', cursive;
+        font-weight: bold;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes mukul{
+        0%{
+            letter-spacing:2px;
+        }
+      
+        50%{
+            letter-spacing:8px;
+        }
+        
+        
+        100%{
+            letter-spacing:2px;
+        }
+    }
+}
